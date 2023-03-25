@@ -1,11 +1,11 @@
 const mysql = require('mysql');
 
 const configDB = {
-  host: 'curso-sls-rds-mysql.cpicoiya5etx.us-east-1.rds.amazonaws.com',
-  user: 'admin_sls',
-  password: '22194313',
-  port: '3306',
-  database: 'curso_sls',
+  host: 'databasehost.suchasamazon',
+  user: 'userofDb',
+  password: 'dbPass',
+  port: 'dbPort',
+  database: 'dbName',
   debug: true
 };
 
